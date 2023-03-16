@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class DockerJenkinsIntegrationApplication {
 	
 	private Map<String, Object> map = new HashMap<>():
+	private static final String URL = "https://google.com";
 
 	public static void main(String[] args) {
 		SpringApplication.run(DockerJenkinsIntegrationApplication.class, args);
